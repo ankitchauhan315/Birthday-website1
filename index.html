@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#170526">
+  <title>Special Birthday Surprise 💜</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="stars" id="stars" aria-hidden="true"></div>
+
+  <section class="intro" id="intro">
+    <div class="intro-content">
+      <div class="big-heart">♡</div>
+      <div class="gift">🎁</div>
+      <h1>A Special Surprise</h1>
+      <p>Someone special deserves a beautiful day...</p>
+      <button class="neon-button" id="openBtn">Tap to Open 💜</button>
+    </div>
+  </section>
+
+  <main class="birthday-page hidden" id="birthdayPage">
+    <header class="topbar">
+      <span>💜 Made With Love</span>
+      <button id="musicBtn" class="music-button" type="button">▶ Music: Off</button>
+    </header>
+
+    <section class="birthday-hero">
+      <p class="eyebrow">✨ TODAY IS YOUR SPECIAL DAY ✨</p>
+      <h1 id="typingTitle" aria-label="Happy Birthday"></h1>
+      <h2>to  <span>Sali ji </span> 💖</h2>
+      <div class="message-box">
+        <p id="typingMessage"></p><span class="cursor" aria-hidden="true">|</span>
+      </div>
+      <p class="wish-line">🎂 Wishing you a very Happy Birthday! 🎂</p>
+      <a href="#memories" class="scroll-button" id="memoriesButton">Your Memories ↓</a>
+    </section>
+
+    <div class="birthday-photo-box">
+      <img src="photos/Photo32.jpeg" alt="Birthday photo collage">
+    </div>
+
+    <section class="memories" id="memories">
+      <h2>♡ Your Memories  ♡</h2>
+      <p class="subtitle">Every picture tells a beautiful Day.</p>
+      <button id="memoryMusicBtn" class="music-button" type="button">▶ Memory Song: Off</button>
+      <div class="gallery">
+        <button class="arrow" id="prevBtn" type="button" aria-label="Previous photo">❮</button>
+        <div class="photo-card">
+          <img id="photo" src="photos/Photo1.jpeg" alt="Beautiful birthday memory">
+          <div class="photo-caption" id="caption">A beautiful memory 💜</div>
+        </div>
+        <button class="arrow" id="nextBtn" type="button" aria-label="Next photo">❯</button>
+      </div>
+      <div class="dots" id="dots" aria-label="Choose a photo"></div>
+      <p class="counter" id="counter">Photo 1 of 4</p>
+    </section>
+
+    <section class="final-wish">
+      <div class="cake">🎂</div>
+      <h2>A Little Wish For You</h2>
+      <p>May your days be filled with happiness, your heart with love, and your life with beautiful moments. Keep smiling, keep shining, and never stop following your dreams.</p>
+      <h3>Happy Birthday, Special Person! 💜</h3>
+    </section>
+
+    <footer>Made with 💜 just for you.<p>Forever a beautiful memory ✨</p></footer>
+  </main>
+
+  <audio id="birthdayMusic" loop preload="metadata">
+    <source src="music/birthday.mp3" type="audio/mpeg">
+  </audio>
+  <audio id="memoriesMusic" loop preload="metadata">
+    <source src="music/memory.mp4">
+  </audio>
+  <script src="script.js"></script>
+</body>
+</html>
