@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,7 +30,7 @@
     <section class="birthday-hero">
       <p class="eyebrow">✨ TODAY IS YOUR SPECIAL DAY ✨</p>
       <h1 id="typingTitle" aria-label="Happy Birthday"></h1>
-      <h2>to  <span>Sali ji </span> 💖</h2>
+      <h2>to <span>Sali ji</span> 💖</h2>
       <div class="message-box">
         <p id="typingMessage"></p><span class="cursor" aria-hidden="true">|</span>
       </div>
@@ -38,23 +39,25 @@
     </section>
 
     <div class="birthday-photo-box">
-      <img src="photos/Photo32.jpeg" alt="Birthday photo collage">
+      <img src="Photo32.jpeg" alt="Birthday photo collage">
     </div>
 
     <section class="memories" id="memories">
-      <h2>♡ Your Memories  ♡</h2>
+      <h2>♡ Your Memories ♡</h2>
       <p class="subtitle">Every picture tells a beautiful Day.</p>
       <button id="memoryMusicBtn" class="music-button" type="button">▶ Memory Song: Off</button>
+
       <div class="gallery">
         <button class="arrow" id="prevBtn" type="button" aria-label="Previous photo">❮</button>
         <div class="photo-card">
-          <img id="photo" src="photos/Photo1.jpeg" alt="Beautiful birthday memory">
+          <img id="photo" src="Photo1.jpeg" alt="Beautiful birthday memory">
           <div class="photo-caption" id="caption">A beautiful memory 💜</div>
         </div>
         <button class="arrow" id="nextBtn" type="button" aria-label="Next photo">❯</button>
       </div>
+
       <div class="dots" id="dots" aria-label="Choose a photo"></div>
-      <p class="counter" id="counter">Photo 1 of 4</p>
+      <p class="counter" id="counter">Photo 1 of 13</p>
     </section>
 
     <section class="final-wish">
@@ -68,11 +71,13 @@
   </main>
 
   <audio id="birthdayMusic" loop preload="metadata">
-    <source src="music/birthday.mp3" type="audio/mpeg">
+    <source src="birthday.mp3" type="audio/mpeg">
   </audio>
+
   <audio id="memoriesMusic" loop preload="metadata">
-    <source src="music/memory.mp4">
+    <source src="memory.mp4" type="audio/mp4">
   </audio>
+
   <script src="script.js"></script>
 </body>
 </html>
