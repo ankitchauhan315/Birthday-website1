@@ -4,22 +4,23 @@ const messageText =
   "May your life be filled with happiness, good health, beautiful memories, " +
   "and all the success you deserve. Keep smiling and shining! 💜";
 
-const photos = [
-  { src: "photos/Photo21.jpeg", caption: "A beautiful memory 💜" },
-  { src: "photos/Photo22.jpeg", caption: "Keep smiling always ✨" },
-  { src: "photos/Photo23.jpeg", caption: "Moments to remember forever 💖" },
-  { src: "photos/Photo24.jpeg", caption: "You deserve all the happiness 🌸" },
-  { src: "photos/Photo25.jpeg", caption: "wishing you a day filled with Love and joy"},
-  { src: "photos/Photo26.jpeg", caption:" Happy Birthday to you! "},
-  { src: "photos/Photo27.jpeg", caption:" Happy Birthday to you! "},
-  { src: "photos/Photo28.jpeg", caption:" Happy Birthday to you! "},
-  { src: "photos/Photo29.jpeg", caption:" Happy Birthday to you! "},
-  { src: "photos/Photo30.jpeg", caption:" Happy Birthday to you! "},
-  { src: "photos/Photo31.jpeg", caption:" Happy Birthday to you! "},
-  { src: "photos/Photo1.jpeg", caption:" Happy Birthday to you! "},
-  { src: "photos/Photo5.jpeg", caption:" This is the first photo when I see you "},
 
+const photos = [
+  { src: "Photo21.jpeg", caption: "A beautiful memory 💜" },
+  { src: "Photo22.jpeg", caption: "Keep smiling always ✨" },
+  { src: "Photo23.jpeg", caption: "Moments to remember forever 💖" },
+  { src: "Photo24.jpeg", caption: "You deserve all the happiness 🌸" },
+  { src: "Photo25.jpeg", caption: "Wishing you a day filled with Love and joy" },
+  { src: "Photo26.jpeg", caption: "Happy Birthday to you!" },
+  { src: "Photo27.jpeg", caption: "Happy Birthday to you!" },
+  { src: "Photo28.jpeg", caption: "Happy Birthday to you!" },
+  { src: "Photo29.jpeg", caption: "Happy Birthday to you!" },
+  { src: "Photo30.jpeg", caption: "Happy Birthday to you!" },
+  { src: "Photo31.jpeg", caption: "Happy Birthday to you!" },
+  { src: "Photo1.jpeg", caption: "Happy Birthday to you!" },
+  { src: "Photo5.jpeg", caption: "This is the first photo when I see you" }
 ];
+
 
 const intro = document.getElementById("intro");
 const openBtn = document.getElementById("openBtn");
