@@ -6,19 +6,20 @@ const messageText =
 
 
 const photos = [
-  { src: "Photo21.jpeg", caption: "A beautiful memory 💜" },
-  { src: "Photo22.jpeg", caption: "Keep smiling always ✨" },
-  { src: "Photo23.jpeg", caption: "Moments to remember forever 💖" },
-  { src: "Photo24.jpeg", caption: "You deserve all the happiness 🌸" },
-  { src: "Photo25.jpeg", caption: "Wishing you a day filled with Love and joy" },
-  { src: "Photo26.jpeg", caption: "Happy Birthday to you!" },
-  { src: "Photo27.jpeg", caption: "Happy Birthday to you!" },
-  { src: "Photo28.jpeg", caption: "Happy Birthday to you!" },
-  { src: "Photo29.jpeg", caption: "Happy Birthday to you!" },
-  { src: "Photo30.jpeg", caption: "Happy Birthday to you!" },
-  { src: "Photo31.jpeg", caption: "Happy Birthday to you!" },
-  { src: "Photo1.jpeg", caption: "Happy Birthday to you!" },
-  { src: "Photo5.jpeg", caption: "This is the first photo when I see you" }
+  { src: "Photo21.jpeg", caption: "Beautiful Memories 💜" },
+  { src: "Photo22.jpeg", caption: "Keep Smiling ✨" },
+  { src: "Photo23.jpeg", caption: "Special Moments ❤️" },
+  { src: "Photo24.jpeg", caption: "Beautiful Day 🌸" },
+  { src: "Photo25.jpeg", caption: "Memories Forever 💖" },
+  { src: "Photo26.jpeg", caption: "Happy Birthday 🎂" },
+  { src: "Photo27.jpeg", caption: "Keep Shining ✨" },
+  { src: "Photo28.jpeg", caption: "Stay Happy 💜" },
+  { src: "Photo29.jpeg", caption: "Special Memories" },
+  { src: "Photo30.jpeg", caption: "Lots of Happiness ❤️" },
+  { src: "Photo31.jpeg", caption: "Beautiful Moments" },
+  { src: "Photo32.jpeg", caption: "A Special Day 💖" },
+  { src: "Photo1.jpeg", caption: "First Memory 💜" },
+  { src: "Photo5.jpeg", caption: "Forever Special ✨" }
 ];
 
 
